@@ -1,0 +1,77 @@
+body{
+    background: orange;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+.Log-inbox{
+    box-sizing: border-box;
+    background: white;
+    border-radius: 20px;
+    border: none;
+    width: 520px;
+    height: 840px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.Log-inbox h1{
+    text-align: center;
+    margin-top: 50px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.lg h2{
+    color: brown;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.lg p{
+    margin-top: 20px;
+    margin-bottom: 29px;
+    margin-left: 40px;
+    font-size: 17px;
+    font-weight: bold
+}
+
+.lg input[ type="text"], input[type="password"], input[type="date"], input[ type="email"]{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 40px;
+    width: 80%;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+button{
+    width: 80%;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background: orange;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+button:hover{
+    color: white;
+    background: blue;
+}
+a{
+    text-decoration: none;
+    color: orange;
+}
+
+a:hover{
+    color: blue;
+}

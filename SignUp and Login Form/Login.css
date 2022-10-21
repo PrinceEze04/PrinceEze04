@@ -1,0 +1,95 @@
+body{
+    background: orange;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    font-family: Verdana;
+}
+
+.login{
+    background: white;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 50%;
+    width: 420px;
+    height: 520px;
+    border-radius: 20px;
+}
+
+.login h1{
+    margin-top: 10%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login p{
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 10%;
+    margin-left: 5%;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.loginb input[type="text"], input[type="password"]{
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 320px;
+    margin-left: 40px;
+    background: transparent;
+}
+
+button{
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 30px;
+    height: 40px;
+    background: orange;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: blue;
+    color: white;
+}
+
+.o a{
+    font-family: arial;
+    text-decoration: none;
+    margin-left: 45px;
+    font-size: 13px;
+    color: orange;
+    font-weight: bold;
+    line-height: 10px;
+    cursor: pointer;
+}
+
+.pa{
+    margin-top: -40px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.pa p{
+    font-family: Arial;
+    font-weight: 3px;
+    font-size: 13px;
+}
+
+.pa a{
+    text-decoration: none;
+    color: orange;
+    cursor: pointer;
+}
+
